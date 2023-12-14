@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbMultipleOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_16"
+            android:checked="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_lbl_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/lbl_customer_name"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/cbMultipleOptions"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_customer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tv_lbl_1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="ABC" />
+
+        <TextView
+            android:id="@+id/tv_lbl_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/lbl_pickup_address"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/cbMultipleOptions"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lbl_1" />
+
+        <TextView
+            android:id="@+id/tv_pickup_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tv_lbl_2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_customer_name"
+            tools:text="Naroda" />
+
+        <TextView
+            android:id="@+id/tv_lbl_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/lbl_dropoff_address"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/cbMultipleOptions"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lbl_2" />
+
+        <TextView
+            android:id="@+id/tv_drop_off_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tv_lbl_3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pickup_address"
+            tools:text="Nikol" />
+
+        <TextView
+            android:id="@+id/tv_lbl_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/lbl_price_expense"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/cbMultipleOptions"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lbl_3" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tv_lbl_4"
+            app:layout_constraintTop_toBottomOf="@+id/tv_drop_off_address"
+            tools:text="100" />
+
+        <TextView
+            android:id="@+id/tv_lbl_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/lbl_pick_up_time"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/cbMultipleOptions"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lbl_4" />
+
+        <TextView
+            android:id="@+id/tv_pickup_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_10"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tv_lbl_5"
+            app:layout_constraintTop_toBottomOf="@+id/tv_price"
+            tools:text="12:00" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

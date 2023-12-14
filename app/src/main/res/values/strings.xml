@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Navigation App</string>
+    <string name="label_trip_info">Trip Info</string>
+    <string name="hint_customer_name">Enter Customer Name</string>
+    <string name="hint_pickup_address">Enter Pickup Address</string>
+    <string name="hint_drop_off_address">Enter DropOff Address</string>
+    <string name="hint_price">Enter Price</string>
+    <string name="hint_pick_up_time">Enter Pickup Time</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_remove_all">Remove All</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_start_navigation">Start Navigation</string>
+    <string name="toast_select_the_trip">Please select atleast one Trip</string>
+    <string name="toast_trip_added_successfully">Trip Added Successfully</string>
+    <string name="toast_enter_all_the_data">Please enter all data</string>
+    <string name="toast_removed_successfully">Trips are removed Successfully</string>
+    <string name="lbl_pick_up_time">Pick-Up Time:</string>
+    <string name="lbl_price_expense">Price (Expense):</string>
+    <string name="lbl_dropoff_address">DropOff Address:</string>
+    <string name="lbl_pickup_address">PickUp Address:</string>
+    <string name="lbl_customer_name">Customer Name:</string>
+</resources>

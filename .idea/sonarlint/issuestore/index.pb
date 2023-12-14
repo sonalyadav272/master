@@ -1,0 +1,21 @@
+
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+p
+@app/src/main/java/com/example/navigation_app/ui/TripViewModel.kt,c\7\c72a2fca7662952b953b087726d92cfafcd83409
+h
+8app/src/main/java/com/example/navigation_app/AppUtils.kt,3\1\31e594c9ea0a4c5902b0a3eaf5c6349396731be2
+x
+Happ/src/main/java/com/example/navigation_app/ui/trip_list/TripAdapter.kt,0\8\083d13800852104c84ae0a3c70ab8855ee408d40
+t
+Dapp/src/main/java/com/example/navigation_app/database/AppDatabase.kt,a\f\af0b19bc79328566484b4562f308d9d498e18017
+p
+@app/src/main/java/com/example/navigation_app/database/TripDao.kt,9\c\9c39f3126b0c668ace7145265070ea1b404068fd
+t
+Dapp/src/main/java/com/example/navigation_app/entities/TripDetails.kt,8\5\85943d381124dff63a015aebbb6b09e7574f1039
+n
+>app/src/main/java/com/example/navigation_app/repo/TripsRepo.kt,d\9\d9d954ab91df688aee7b6c6aa28b1aae01b8cde5
+{
+Kapp/src/main/java/com/example/navigation_app/ui/trip_info/TripInfoScreen.kt,3\2\3213efec588ffb123c4a0d5e21ea034e96c47ee6
+{
+Kapp/src/main/java/com/example/navigation_app/ui/trip_list/TripListScreen.kt,3\2\32d857a1e95253bd9b677dcd0b62b12ac83f3123
